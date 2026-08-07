@@ -1,0 +1,15 @@
+{
+  "packages": {
+    "wp-seopress-pro/wp-seopress-pro": {
+      "10.1": {
+        "name": "wp-seopress-pro/wp-seopress-pro",
+        "version": "10.1",
+        "type": "wordpress-plugin",
+        "dist": {
+          "url": "https://raw.githubusercontent.com/wollabroller/composer/main/dist/wp-seopress-pro-10.1.zip",
+          "type": "zip"
+        }
+      }
+    }
+  }
+}
