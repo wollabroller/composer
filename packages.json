@@ -10,6 +10,17 @@
           "type": "zip"
         }
       }
+    },
+    "creativethemes/blocksy-companion-pro": {
+      "2.1.52": {
+        "name": "creativethemes/blocksy-companion-pro",
+        "version": "2.1.52",
+        "type": "wordpress-plugin",
+        "dist": {
+          "url": "https://raw.githubusercontent.com/wollabroller/composer/main/dist/blocksy-companion-pro-2.1.52.zip",
+          "type": "zip"
+        }
+      }
     }
   }
 }
