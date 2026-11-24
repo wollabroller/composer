@@ -5,9 +5,15 @@ export default {
   composerName: 'creativethemes/blocksy-companion-pro',
 
   async download() {
-    const response = await fetch(
-      `https://api.freemius.com/v1/users/${process.env.BLOCKSY_USER_ID!}/plugins/5115/updates/latest.zip?authorization=${process.env.BLOCKSY_LICENSE_KEY!}&is_premium=true`,
-    );
+    const url = `https://api.freemius.com/v1/users/${process.env.BLOCKSY_USER_ID!}/plugins/5115/updates/latest.zip?${new URLSearchParams(
+      {
+        authorization: process.env.BLOCKSY_LICENSE_KEY!,
+        is_premium: 'true',
+      },
+    )}`;
+
+    const response = await fetch(url);
+
     return Buffer.from(await response.arrayBuffer());
   },
 

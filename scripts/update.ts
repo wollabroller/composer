@@ -2,6 +2,8 @@ import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import blocksyCompanionPro from '../src/plugins/blocksy-companion-pro.ts';
+import polylangPro from '../src/plugins/polylang-pro.ts';
+import polylangWc from '../src/plugins/polylang-wc.ts';
 import wpSeopressPro from '../src/plugins/wp-seopress-pro.ts';
 import type { Package, Plugin } from '../src/types.ts';
 
@@ -59,7 +61,7 @@ async function updatePackagesJson(plugin: Plugin, version: string, filename: str
   console.log(`Updated packages.json: ${plugin.composerName}@${version}`);
 }
 
-const plugins: Plugin[] = [blocksyCompanionPro, wpSeopressPro];
+const plugins: Plugin[] = [blocksyCompanionPro, polylangPro, polylangWc, wpSeopressPro];
 
 for (const plugin of plugins) {
   const zip = await plugin.download();

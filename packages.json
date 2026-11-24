@@ -1,5 +1,47 @@
 {
   "packages": {
+    "creativethemes/blocksy-companion-pro": {
+      "2.1.52": {
+        "name": "creativethemes/blocksy-companion-pro",
+        "version": "2.1.52",
+        "type": "wordpress-plugin",
+        "dist": {
+          "url": "https://raw.githubusercontent.com/wollabroller/composer/main/dist/blocksy-companion-pro-2.1.52.zip",
+          "type": "zip"
+        }
+      },
+      "2.1.62": {
+        "name": "creativethemes/blocksy-companion-pro",
+        "version": "2.1.62",
+        "type": "wordpress-plugin",
+        "dist": {
+          "url": "https://raw.githubusercontent.com/wollabroller/composer/main/dist/blocksy-companion-pro-2.1.62.zip",
+          "type": "zip"
+        }
+      }
+    },
+    "polylang/polylang-pro": {
+      "3.9.2": {
+        "name": "polylang/polylang-pro",
+        "version": "3.9.2",
+        "type": "wordpress-plugin",
+        "dist": {
+          "url": "https://raw.githubusercontent.com/wollabroller/composer/main/dist/polylang-pro-3.9.2.zip",
+          "type": "zip"
+        }
+      }
+    },
+    "polylang/polylang-wc": {
+      "2.2.7": {
+        "name": "polylang/polylang-wc",
+        "version": "2.2.7",
+        "type": "wordpress-plugin",
+        "dist": {
+          "url": "https://raw.githubusercontent.com/wollabroller/composer/main/dist/polylang-wc-2.2.7.zip",
+          "type": "zip"
+        }
+      }
+    },
     "wp-seopress-pro/wp-seopress-pro": {
       "10.1": {
         "name": "wp-seopress-pro/wp-seopress-pro",
@@ -9,15 +51,13 @@
           "url": "https://raw.githubusercontent.com/wollabroller/composer/main/dist/wp-seopress-pro-10.1.zip",
           "type": "zip"
         }
-      }
-    },
-    "creativethemes/blocksy-companion-pro": {
-      "2.1.52": {
-        "name": "creativethemes/blocksy-companion-pro",
-        "version": "2.1.52",
+      },
+      "10.4": {
+        "name": "wp-seopress-pro/wp-seopress-pro",
+        "version": "10.4",
         "type": "wordpress-plugin",
         "dist": {
-          "url": "https://raw.githubusercontent.com/wollabroller/composer/main/dist/blocksy-companion-pro-2.1.52.zip",
+          "url": "https://raw.githubusercontent.com/wollabroller/composer/main/dist/wp-seopress-pro-10.4.zip",
           "type": "zip"
         }
       }
